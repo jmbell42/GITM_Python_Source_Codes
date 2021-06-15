@@ -1,0 +1,10 @@
+setenv CONDA_PREFIX /opt/anaconda3
+setenv PROJ_LIB ${CONDA_PREFIX}/share/proj/
+#
+setenv PYTHONPATH /opt/anaconda3/bin/python
+setenv PYTHONPATH ${PYTHONPATH}:/opt/anaconda3/bin/
+setenv PYTHONPATH ${PYTHONPATH}:/Users/jmbell4/PythonSource/pygitm/
+setenv PYTHONPATH ${PYTHONPATH}:/Users/jmbell4/PythonSource/wx/demo/
+setenv PYTHONPATH ${PYTHONPATH}:/Users/jmbell4/PythonSource/wx/samples/
+
+
